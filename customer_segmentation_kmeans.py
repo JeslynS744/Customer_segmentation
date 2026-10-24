@@ -21,7 +21,7 @@ from sklearn.cluster import KMeans
 # ---------------------------------------------------------
 sns.set_theme(style="whitegrid", palette="muted")
 plt.rcParams.update({
-    'font.sans-serif': 'Segoe UI',
+    'font.sans-serif': ['DejaVu Sans', 'Arial', 'sans-serif'],
     'font.size': 11,
     'axes.labelsize': 12,
     'axes.titlesize': 14,
